@@ -1,0 +1,62 @@
+name: tinder_clone
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  line_icons: ^2.0.1
+  flutter_svg: ^1.0.0
+  image_picker: ^0.8.4+8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: GreatVibes-Regular
+      fonts:
+        - asset: assets/GreatVibes-Regular.ttf
+
+  assets:
+    - assets/images/
+    - assets/images/boys/
+    - assets/images/girls/
+    - assets/images/icons/
+    - assets/images/boys/Carlo.jpg
+    - assets/images/boys/David.jpg
+    - assets/images/boys/JJ.jpg
+    - assets/images/boys/Karl.jpg
+    - assets/images/boys/Kier.jpg
+    - assets/images/boys/Laurence.jpg
+    - assets/images/boys/Martin.jpg
+    - assets/images/boys/Renz.jpg
+    - assets/images/girls/Rose.jpg
+    - assets/images/girls/Kate.jpg
+    - assets/images/girls/Kate - Copy.jpg
+    - assets/images/girls/Kat.jpg
+    - assets/images/icons/explore_active_icon.svg
+    - assets/images/icons/explore_icon.svg
+    - assets/images/icons/likes_active_icon.svg
+    - assets/images/icons/likes_icon.svg
+    - assets/images/icons/chat_active_icon.svg
+    - assets/images/icons/chat_icon.svg
+    - assets/images/icons/account_icon.svg
+    - assets/images/icons/refresh_icon.svg
+    - assets/images/icons/close_icon.svg
+    - assets/images/icons/star_icon.svg
+    - assets/images/icons/like_icon.svg
+    - assets/images/icons/thunder_icon.svg
+    - assets/images/icons/checklist.png
+    - assets/images/icons/sad_smiley.png
+    - assets/images/icons/SoulSync_logo.png
+    - assets/images/icons/SoulSync.png
+    - assets/images/icons/heart_large.png
+    - assets/images/icons/close_large.png
